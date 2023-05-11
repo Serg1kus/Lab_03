@@ -13,7 +13,7 @@ vector<int> geometricProgression(int n) {
 }
 
 int main() {
-    for (int i = 1; i <= 100; i++) {
+    for (int i = 1; i <= 1000; i++) {
         vector<int> result = geometricProgression(i);
         //cout << "GP(" << i << ") = ";
         //for (int j = 0; j < result.size(); j++) {
