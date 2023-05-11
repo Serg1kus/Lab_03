@@ -14,6 +14,7 @@ int main()
         an = a;                     
         for(int i = 0; i < 5000; i++) 
         {
+            
             an *= r;                
         }
   
