@@ -4,14 +4,16 @@ using namespace std;
 
 int main()
 {
-    long long int product = 1;
+    int first_term = 1; 
+    int common_difference = 1; 
+    int last_term = 100000; 
+    int current_term = first_term; 
 
-    for(int i = 1; i <= 1000; i++)
+    while(current_term <= last_term)
     {
-        product *= i;
+        
+        current_term += common_difference; 
     }
-
-    cout << "Product of numbers from 1 to 1000000 is: " << product << endl;
 
     return 0;
 }
