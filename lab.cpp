@@ -8,9 +8,7 @@ int main()
     double a = 1;         
     double r = 2;        
     double an = a;       
-
-    cout << "Geometric progression: ";
-
+    
     for(int j = 0; j < 10000; j++)   
     {
         an = a;                     
@@ -18,8 +16,7 @@ int main()
         {
             an *= r;                
         }
-        
+  
     }
-
     return 0;
 }
