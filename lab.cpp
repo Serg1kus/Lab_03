@@ -6,7 +6,7 @@ int main()
 {
     long long int product = 1;
 
-    for(int i = 1; i <= 1000000000; i++)
+    for(int i = 1; i <= 1000000000000; i++)
     {
         product *= i;
     }
