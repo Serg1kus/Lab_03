@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    int first_term = 1; 
-    int common_difference = 1; 
-    int last_term = 100000000000; 
-    int current_term = first_term; 
+    long long first_term = 1; 
+    long long common_difference = 1; 
+    long long last_term = 100000000000; 
+    long long current_term = first_term; 
 
     while(current_term <= last_term)
     {
