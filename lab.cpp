@@ -5,21 +5,20 @@ using namespace std;
 
 int main()
 {
-    double a = 1;         // Початковий елемент
-    double r = 2;         // Знаменник
-    double an = a;        // Поточний член прогресії
+    double a = 1;         
+    double r = 2;        
+    double an = a;       
 
     cout << "Geometric progression: ";
 
-    for(int j = 0; j < 1000000; j++)   // Обчислюємо 1000 різних геометричних прогресій
+    for(int j = 0; j < 10000; j++)   
     {
-        an = a;                     // Починаємо з початкового елемента
-        for(int i = 0; i < 5000; i++) // Обчислюємо 50 членів прогресії
+        an = a;                     
+        for(int i = 0; i < 5000; i++) 
         {
-            cout << an << " ";      // Виводимо поточний член
-            an *= r;                // Обчислюємо наступний член
+            an *= r;                
         }
-        cout << endl;
+        
     }
 
     return 0;
