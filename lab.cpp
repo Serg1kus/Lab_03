@@ -6,7 +6,7 @@ int main()
 {
     int first_term = 1; 
     int common_difference = 1; 
-    int last_term = 1000000000; 
+    int last_term = 100000000000; 
     int current_term = first_term; 
 
     while(current_term <= last_term)
